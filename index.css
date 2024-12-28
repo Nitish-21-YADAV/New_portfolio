@@ -1208,6 +1208,10 @@ form {
     }
 }
 @media only screen and (max-width:490px) {
+    #navbar ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
     .headings {
         font-size: 30px;
         margin-left: 3%;
